@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;  
+    display: flex;
+      flex-direction: column;
+  }
+  .header {
+    background-color:#1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px ;
+  }
+  
+  .header ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .right img {
+    width: 550px;
+    height: 250px;
+    object-fit: fill;
+  }
+  
+  .first {
+    padding: 100px 200px;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+  }
+  .first .left {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+  }
+  
+  .secondary-text{
+    font-size: 15px;
+    color: #E5E7EB;
+  }
+  
+   .first button{
+    background-color: #3882F6;
+    font-size: 15px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    color: whitesmoke;
+  }
+  .second {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 30px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  .info {
+    max-width: 200px;
+  }
+  .info img {
+    border: 3px solid lightblue;
+    border-radius: 10px;
+  }
+  
+  .text{
+    font-size: 15px;
+    color: #1F2937;
+  }
+  
+  .third {
+    padding: 50px  300px;
+    background-color: #E5E7EB;
+    margin-top: 20px ;
+    font-style: italic;
+    font-size: 16px;
+    color: #1F2937;
+  }
+  
+  .third footer {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .four {
+    margin: 50px  300px;
+    background-color: #3882F6;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .four-text {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #F9FAF8;
+  }
+  
+  .four button {
+      background-color: #3882F6;
+      font-size: 15px;
+      border: 3px solid whitesmoke  ;
+      padding: 5px 20px;
+      border-radius: 10px;
+      color: whitesmoke;
+  }
+  
+  .footer {
+    background-color:#1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
